@@ -1,4 +1,29 @@
+/* 
+@font-face {
+  font-family: 'Darkenstone';
+  src:  url('./Darkenstone.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+} 
+
 .hello {
-  color: red;
+  color: darkred;
+  font-family: 'Darkenstone';
   background: url('./icon.png');
+  background-color: lightpink;
+}
+*/
+
+@font-face {
+  font-family: 'Kalam';
+  src: url('./Kalam-Regular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: white;
+  font-family: 'Kalam';
+  background: url('./icon.png');
+  background-color: rgb(34, 5, 163);
 }
